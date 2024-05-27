@@ -1,0 +1,15 @@
+AUTO USATE
+___________________
+
+IDAuto              -INT AUTO_INCREMENT PRIMARY KEY
+Marca               -VARCHAR(50) NOT NULL
+Modello             -VARCHAR(50) NOT NULL
+Anno                -YEAR NOT NULL
+Chilometraggio      -INT NOT NULL
+Colore              -VARCHAR(30)
+Prezzo              -DECIMAL(10, 2) NOT NULL
+Stato               -VARCHAR(50) NOT NULL
+NumeroTelaio        -VARCHAR(50) NOT NULL UNIQUE
+DataInserimento     -DATE NOT NULL
+Descrizione         -TEXT
+IDConcessionario    -INT
